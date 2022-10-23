@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# ADN - Asciación Civil por lo Derechos Naturales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### ADN - Asociación Civil Acción por los Derechos Naturales (sin fines de lucro), Rio Negro con Personería Jurídica de la Provincia de Rio Negro N° 3740 – Res DGPC N° 151, se conforma a partir de la necesidad de restaurar en la cultura y la sociedad, el valor de la vida humana desde la concepción hasta la muerte natural, de la familia y de la Patria.
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+### Asociación que defendiede el derecho a la vida del inocente, desde la concepción hasta la muerte natural, la familia natural como unidad básica y primera de toda sociedad, así como los principios y valores que hacen grande a nuestra querida Argentina. La propuesta consiste en formar un equipo con distintas organizaciones que compartan nuestros objetivos, con el fin de multiplicar los recursos disponibles, incluido el potencial humano, proponiendo planificar sabiamente todas las actividades para tener una llegada más profunda a la vida de la población y alertar sobre los avances de ideas anticientíficas, contrarias a la vida, la familia, los valores y la Patria, subordinadas a poderes económicos internacionales que manipulan nuestro pensamiento para confundirnos y someternos.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Colaboro con este desarrollo, no sólo porque suma a mi experiencia, sino también porque quiero aportar mi granito de arena para esta noble causa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Es por ello que decidí participar desarrollando esta aplicación web, que si bien, no está completamente terminada, la comparto para destacar también mi forma de trabajar.
 
-### `npm test`
+#### Actualmente pueden visitarnos en: https://adnrn.vercel.app/home
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+### Cabe destacar que las secciones que faltan no van a estar subidas a este repositorio público, ya que, como mencioné enteriormente con lo que subí es suficiente para demostrar mi forma de trabajar y de pensar soluciones. Así mismo debo mencionar que me adapto a cualquier necesidad.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Para el desarrollo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - React, Redux, Hooks, Context API, React Router DOM, React Hook Form, Firebase, Observers con RxJS e Intersection Observer API, Styled Components, Bootstrap.
+    - Clean Architecture adaptada al Front End
+    - Clean Code
+    - Atomic Design
+    - Tratando de tener en cuenta los principios SOLID siempre y cuándo se pueda.
 
-### `npm run eject`
+##### Mis agradeciminetos al profe Alan de [Gentleman Programming](https://www.youtube.com/c/GentlemanProgramming/about) por compartir sus conocimientos sobre la Clean Architecture.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Por último, estoy seguro de que se puede mejorar en muchos aspectos, pero, personalmente creo que estoy logrando un gran trabajo.
