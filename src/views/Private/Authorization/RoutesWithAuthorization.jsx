@@ -1,10 +1,10 @@
 import { AdminRoutes } from "models/routes";
 import { Route } from "react-router-dom";
 import { RoutesNoMatch } from "utilities/routesNoMatch.util";
-import { Dashboard } from "./Dashboard/Dashboard";
-import { RegisterNewUser } from "./RegisterNewUser/RegisterNewUser";
+import Dashboard from "./Dashboard/Dashboard";
+import RegisterNewUser from "./RegisterNewUser/RegisterNewUser";
 
-export const RoutesWithAuthorization = () => {
+const RoutesWithAuthorization = () => {
   return (
     <RoutesNoMatch>
       <Route path={AdminRoutes.DASHBOARD} element={<Dashboard />} />
@@ -12,3 +12,4 @@ export const RoutesWithAuthorization = () => {
     </RoutesNoMatch>
   );
 };
+export default RoutesWithAuthorization;

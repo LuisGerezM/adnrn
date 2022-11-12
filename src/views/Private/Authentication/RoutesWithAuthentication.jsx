@@ -1,11 +1,11 @@
 import { PrivateRoutes } from "models/routes";
 import { Route } from "react-router-dom";
 import { RoutesNoMatch } from "utilities/routesNoMatch.util";
-import { RegisterNewFood } from "./RegisterNewFood/RegisterNewFood";
-import { SeeOrders } from "./SeeOrders/SeeOrders";
-import { SeePossibleNewMembers } from "./SeePossibleNewMembers/SeePossibleNewMembers";
+import RegisterNewFood from "./RegisterNewFood/RegisterNewFood";
+import SeeOrders from "./SeeOrders/SeeOrders";
+import SeePossibleNewMembers from "./SeePossibleNewMembers/SeePossibleNewMembers";
 
-export const RoutesWithAuthentication = () => {
+const RoutesWithAuthentication = () => {
   return (
     <RoutesNoMatch>
       <Route path={PrivateRoutes.SEEORDER} element={<SeeOrders />} />
@@ -20,3 +20,4 @@ export const RoutesWithAuthentication = () => {
     </RoutesNoMatch>
   );
 };
+export default RoutesWithAuthentication;

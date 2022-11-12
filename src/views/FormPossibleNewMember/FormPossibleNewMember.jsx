@@ -2,7 +2,7 @@ import { PublicRoutes } from "models/routes";
 import { Navigate } from "react-router-dom";
 import { SubtitleTextStyled } from "styled-components/App.styled";
 
-export const FormPossibleNewMember = () => {
+const FormPossibleNewMember = () => {
   console.log("FormPossibleNewMembers");
   return (
     <SubtitleTextStyled>
@@ -10,3 +10,4 @@ export const FormPossibleNewMember = () => {
     </SubtitleTextStyled>
   );
 };
+export default FormPossibleNewMember;

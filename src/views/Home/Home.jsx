@@ -4,7 +4,7 @@ import { AboutFooter } from "./components/AboutFooter";
 import { AboutHeader } from "./components/AboutHeader";
 import { SponsorSection } from "./components/SponsorSection";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="about">
       <AboutHeader />
@@ -15,3 +15,4 @@ export const Home = () => {
     </div>
   );
 };
+export default Home;
