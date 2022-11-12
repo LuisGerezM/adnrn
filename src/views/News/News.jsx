@@ -4,7 +4,7 @@ import { WrapNewsStyled } from "./styled-components/wrapNews.styled";
 import { FormShowNews } from "./components/FormShowNews/FormShowNews";
 import { NewsToggleButton } from "./components/NewsToggleButtons/NewsToggleButton";
 
-export const News = () => {
+const News = () => {
   // manage toggleBtnGroup
   const [clickToggleBtn, setClickToggleBtn] = useState("news");
 
@@ -27,3 +27,5 @@ export const News = () => {
     </WrapNewsStyled>
   );
 };
+
+export default News;

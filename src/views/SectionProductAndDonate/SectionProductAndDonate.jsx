@@ -2,7 +2,7 @@ import { SubtitleTextStyled } from "styled-components/App.styled";
 import { PublicRoutes } from "models/routes";
 import { Navigate } from "react-router-dom";
 
-export const SectionProductAndDonate = () => {
+const SectionProductAndDonate = () => {
   return (
     <SubtitleTextStyled>
       SectionProductAndDonate In Develop
@@ -10,3 +10,5 @@ export const SectionProductAndDonate = () => {
     </SubtitleTextStyled>
   );
 };
+
+export default SectionProductAndDonate;
