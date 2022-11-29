@@ -8,7 +8,6 @@ const {
 
 export const putNews = async (dataForm, responsibleUser) => {
   try {
-    // responsibleUser is email user auth
     const queryExistDoc = await authAndDocExistInFirebase(
       responsibleUser,
       NEWSCOLLECTION,

@@ -19,7 +19,6 @@ export const postNews = async (dataForm, responsibleUser) => {
       deletedBy: "",
     };
 
-    // responsibleUser is email user auth
     const queryExistDoc = await authAndDocExistInFirebase(
       responsibleUser,
       NEWSCOLLECTION,

@@ -6,10 +6,10 @@ export const newsAdapter = (news) => {
     responsibleUser: item.responsibleUser,
     id: item.id,
     newsBody: item.newsBody,
-    editedBy: item.editedBy ? item.editedBy : "",
-    editedDate: item.editedDate ? item.editedDate : "",
-    deletedDate: item.deletedDate ? item.deletedDate : "",
-    deletedBy: item.deletedBy ? item.deletedBy : "",
+    editedBy: item.editedBy || "",
+    editedDate: item.editedDate || "",
+    deletedDate: item.deletedDate || "",
+    deletedBy: item.deletedBy || "",
     active: item.active,
   }));
 };
