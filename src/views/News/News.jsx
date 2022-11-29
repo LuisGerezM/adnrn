@@ -5,7 +5,6 @@ import { FormShowNews } from "./components/FormShowNews/FormShowNews";
 import { NewsToggleButton } from "./components/NewsToggleButtons/NewsToggleButton";
 
 const News = () => {
-  // manage toggleBtnGroup
   const [clickToggleBtn, setClickToggleBtn] = useState("news");
 
   const handleToggleBtnClick = (actionShow) => {
